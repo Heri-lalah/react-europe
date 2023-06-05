@@ -123,21 +123,25 @@
     .tools_equip .content .tools {
       padding: 8em 0 .5em 0;
       border-bottom: 1px solid #e7e7e7;
-      margin: 2em auto; }
-      .tools_equip .content .tools .app_tools a {
-        display: inline-block;
-        text-decoration: none;
-        max-width: 20%; }
-        .tools_equip .content .tools .app_tools a img {
-          max-width: 50%; }
-        .tools_equip .content .tools .app_tools a h3 {
-          font-size: 1.4em;
-          font-weight: 400;
-          width: 100%;
-          padding: .2em 0 0 0;
-          color: darkgray; }
-        .tools_equip .content .tools .app_tools a p {
-          color: #1b1a1a; }
+      margin: 0 auto; }
+      .tools_equip .content .tools .app_tools {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .tools_equip .content .tools .app_tools a {
+          display: inline-block;
+          text-decoration: none;
+          margin: 0 .5em; }
+          .tools_equip .content .tools .app_tools a img {
+            max-width: 5rem; }
+          .tools_equip .content .tools .app_tools a h3 {
+            font-size: 1.4em;
+            font-weight: 400;
+            width: 100%;
+            padding: .2em 0 0 0;
+            color: darkgray; }
+          .tools_equip .content .tools .app_tools a p {
+            color: #1b1a1a; }
     .tools_equip .content .equip .equip_list {
       width: 80%;
       margin: 0 auto;
@@ -148,20 +152,5 @@
       width: 4em;
       border-radius: 100%;
       margin: 2em auto; }
-
-@media screen {
-  .intro p {
-    max-width: 100%; }
-
-  .button a {
-    color: #1798ac;
-    border-radius: 5px;
-    font-size: 1em;
-    padding: .2em 2% .2em 3%;
-    margin-right: 2%;
-    margin-top: .2em;
-    background-color: red; }
-    .button a:hover {
-      opacity: 0.9; } }
 
 /*# sourceMappingURL=index.css.map */
