@@ -15,9 +15,6 @@
   display: table;
   clear: both; }
 
-@media screen and (max-width: 760px) {
-  .intro p {
-    max-width: 100%; } }
 .top {
   border-bottom: solid 1px #4fa1aa; }
   .top .top_header {
@@ -80,8 +77,8 @@
       text-decoration: none;
       color: #1798ac;
       border-radius: 5px;
-      font-size: 1.5em;
-      padding: .7em 7% .7em 5%;
+      font-size: 1.3em;
+      padding: .5em 5%;
       margin-right: 2%;
       margin-top: .2em;
       background-color: #fff; }
@@ -141,9 +138,30 @@
           color: darkgray; }
         .tools_equip .content .tools .app_tools a p {
           color: #1b1a1a; }
+    .tools_equip .content .equip .equip_list {
+      width: 80%;
+      margin: 0 auto;
+      justify-content: baseline;
+      display: flex;
+      flex-wrap: wrap; }
     .tools_equip .content .equip img {
-      width: 10%;
+      width: 4em;
       border-radius: 100%;
       margin: 2em auto; }
+
+@media screen {
+  .intro p {
+    max-width: 100%; }
+
+  .button a {
+    color: #1798ac;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: .2em 2% .2em 3%;
+    margin-right: 2%;
+    margin-top: .2em;
+    background-color: red; }
+    .button a:hover {
+      opacity: 0.9; } }
 
 /*# sourceMappingURL=index.css.map */

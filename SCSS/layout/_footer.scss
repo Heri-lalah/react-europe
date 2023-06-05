@@ -35,8 +35,15 @@
             } 
         }
         .equip{
+            .equip_list{
+                width: 80%;
+                margin: 0 auto;
+                justify-content: baseline;
+                display: flex;
+                flex-wrap: wrap;
+            }
             img{
-               width: 10%; 
+               width: 4em; 
                border-radius: 100%;
                margin: 2em auto;
             }
