@@ -1,0 +1,36 @@
+//styling top header
+.top{
+    border-bottom: solid 1px $blue;
+    .top_header{
+        padding: 1.5em;
+        max-width: 85%;
+        a{  
+            color: $gray_1;
+            font-size: 1.1em;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.5s ease-in-out;
+            &.logo{
+                float: left;
+                font-weight: 600;
+                span{
+                    border: solid $gray_1 2px;
+                    padding:.5em;
+                    border-radius: 100%;
+                    font-weight: 400;
+                }
+            }
+            &.logo:hover{
+                color: $white;
+                transform: scale(1.1,1.1);
+            }
+            &.back{
+                float: right;
+            }
+            &.back:hover{
+                color: $white;
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+*{
+    font-family:Tahoma, sans-serif;
+}
+
+//content
+.wrapper{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+//clearfix
+
+.clearfix::before{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}

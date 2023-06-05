@@ -1,0 +1,45 @@
+.tools_equip{
+    background-color:white;
+    .content{
+        margin: 0 auto;
+        max-width: 85%;
+        text-align: center;
+        .tools_equip_title{
+            font-size: 2em;
+            font-weight: 400;
+            color: $gray_2;
+        }
+        .tools{
+            padding: 8em 0 .5em 0;
+            border-bottom: 1px solid $gray_3;
+            margin: 2em auto;
+            .app_tools{
+                a{
+                    display: inline-block;
+                    text-decoration: none; 
+                    max-width: 20%;
+                    & img{
+                        max-width: 50%;
+                    }
+                    & h3{
+                        font-size: 1.4em;
+                        font-weight: 400;
+                        width: 100%;
+                        padding: .2em 0 0 0;
+                        color:$darkgray;
+                    }
+                    & p{
+                        color:$black;
+                    }
+                }
+            } 
+        }
+        .equip{
+            img{
+               width: 10%; 
+               border-radius: 100%;
+               margin: 2em auto;
+            }
+        }
+    }
+}

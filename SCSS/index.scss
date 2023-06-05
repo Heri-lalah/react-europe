@@ -1,0 +1,11 @@
+
+@import 'partials/variables';
+@import 'partials/helpers';
+
+//import responsive design
+@import 'responsive.scss';
+
+//import layout style
+@import 'layout/header';
+@import 'layout/banner';
+@import 'layout/footer';
