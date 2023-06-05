@@ -1,0 +1,97 @@
+@media screen and (max-width: 760px) {   
+    .wrapper{
+        .intro{
+            margin: 2em auto auto auto;
+            img{
+                width: 50px;
+            }
+            p{
+                font-size: 15px;
+                width: 100%;
+                margin: 0 auto;
+                padding: 0 0 2em 0;
+            }
+        }
+    
+        .button{
+            margin: 0 auto;
+            max-width: 75%;
+            a{
+                border-radius: 5px;
+                font-size: 5px;
+                width: 100%;
+                padding: .1em 3%;
+                margin-right: 2%;
+                margin-top: .2em;
+                background-color: $white;
+                &:hover{
+                    opacity: 0.9; 
+                }
+            }
+        }
+    
+        .devices{
+            margin: 2em auto auto auto;
+            max-width: 100%;
+            padding: 0;
+        }
+    }
+    .tools_equip{
+        background-color:white;
+        .content{
+            margin: 0 auto;
+            max-width: 85%;
+            text-align: center;
+            .tools_equip_title{
+                font-size: 1.2em;
+
+            }
+
+            .tools{
+                padding: 8em 0 .5em 0;
+                border-bottom: 1px solid $gray_3;
+                margin: 0 auto;
+                //margin: 2em auto;
+                .app_tools{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    a{
+                        display: inline-block;
+                        text-decoration: none; 
+                        //width: 5rem;
+                        margin: 0 .5em;
+                        & img{
+                            max-width: 4rem;
+                        }
+                        & h3{
+                            font-size: 1em;
+                            font-weight: 400;
+                            width: 100%;
+                            padding: .2em 0 0 0;
+                            color:$darkgray;
+                        }
+                        & p{
+                            color:$black;
+                        }
+                    }
+                } 
+            }
+            
+            .equip{
+                .equip_list{
+                    width: 80%;
+                    margin: 0 auto;
+                    justify-content: baseline;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                img{
+                   width: 3em; 
+                   border-radius: 100%;
+                   margin: 2em auto;
+                }
+            }
+        }
+    }
+}

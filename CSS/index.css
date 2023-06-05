@@ -58,6 +58,9 @@
       font-size: 2.5em;
       padding: .1em;
       font-weight: 600; }
+      @media screen and (max-width: 760px) {
+        .banner .wrapper .intro h1 {
+          font-size: 1.5em; } }
     .banner .wrapper .intro p {
       color: #b4dada;
       font-size: 1.2em;
@@ -152,5 +155,74 @@
       width: 4em;
       border-radius: 100%;
       margin: 2em auto; }
+
+@media screen and (max-width: 760px) {
+  .wrapper .intro {
+    margin: 2em auto auto auto; }
+    .wrapper .intro img {
+      width: 50px; }
+    .wrapper .intro p {
+      font-size: 15px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 0 2em 0; }
+  .wrapper .button {
+    margin: 0 auto;
+    max-width: 75%; }
+    .wrapper .button a {
+      border-radius: 5px;
+      font-size: 5px;
+      width: 100%;
+      padding: .1em 3%;
+      margin-right: 2%;
+      margin-top: .2em;
+      background-color: #fff; }
+      .wrapper .button a:hover {
+        opacity: 0.9; }
+  .wrapper .devices {
+    margin: 2em auto auto auto;
+    max-width: 100%;
+    padding: 0; }
+
+  .tools_equip {
+    background-color: white; }
+    .tools_equip .content {
+      margin: 0 auto;
+      max-width: 85%;
+      text-align: center; }
+      .tools_equip .content .tools_equip_title {
+        font-size: 1.2em; }
+      .tools_equip .content .tools {
+        padding: 8em 0 .5em 0;
+        border-bottom: 1px solid #e7e7e7;
+        margin: 0 auto; }
+        .tools_equip .content .tools .app_tools {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap; }
+          .tools_equip .content .tools .app_tools a {
+            display: inline-block;
+            text-decoration: none;
+            margin: 0 .5em; }
+            .tools_equip .content .tools .app_tools a img {
+              max-width: 4rem; }
+            .tools_equip .content .tools .app_tools a h3 {
+              font-size: 1em;
+              font-weight: 400;
+              width: 100%;
+              padding: .2em 0 0 0;
+              color: darkgray; }
+            .tools_equip .content .tools .app_tools a p {
+              color: #1b1a1a; }
+      .tools_equip .content .equip .equip_list {
+        width: 80%;
+        margin: 0 auto;
+        justify-content: baseline;
+        display: flex;
+        flex-wrap: wrap; }
+      .tools_equip .content .equip img {
+        width: 3em;
+        border-radius: 100%;
+        margin: 2em auto; } }
 
 /*# sourceMappingURL=index.css.map */
